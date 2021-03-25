@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC309F78260B5C9700A39B7C /* SafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC309F77260B5C9700A39B7C /* SafariViewController.swift */; };
+		DCAA28302609ED24003EB1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA282F2609ED24003EB1C2 /* AppDelegate.swift */; };
+		DCAA28322609ED24003EB1C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA28312609ED24003EB1C2 /* SceneDelegate.swift */; };
+		DCAA28342609ED24003EB1C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA28332609ED24003EB1C2 /* ViewController.swift */; };
+		DCAA28372609ED24003EB1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAA28352609ED24003EB1C2 /* Main.storyboard */; };
+		DCAA28392609ED29003EB1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAA28382609ED29003EB1C2 /* Assets.xcassets */; };
+		DCAA283C2609ED29003EB1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAA283A2609ED29003EB1C2 /* LaunchScreen.storyboard */; };
+		DCAA28472609ED2A003EB1C2 /* FujiNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA28462609ED2A003EB1C2 /* FujiNetTests.swift */; };
+		DCAA28522609ED2A003EB1C2 /* FujiNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA28512609ED2A003EB1C2 /* FujiNetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCAA28432609ED2A003EB1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAA28242609ED24003EB1C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAA282B2609ED24003EB1C2;
+			remoteInfo = FujiNet;
+		};
+		DCAA284E2609ED2A003EB1C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAA28242609ED24003EB1C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAA282B2609ED24003EB1C2;
+			remoteInfo = FujiNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC309F77260B5C9700A39B7C /* SafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewController.swift; sourceTree = "<group>"; };
+		DCAA282C2609ED24003EB1C2 /* FujiNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FujiNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAA282F2609ED24003EB1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCAA28312609ED24003EB1C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCAA28332609ED24003EB1C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCAA28362609ED24003EB1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCAA28382609ED29003EB1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCAA283B2609ED29003EB1C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCAA283D2609ED2A003EB1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAA28422609ED2A003EB1C2 /* FujiNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FujiNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAA28462609ED2A003EB1C2 /* FujiNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiNetTests.swift; sourceTree = "<group>"; };
+		DCAA28482609ED2A003EB1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAA284D2609ED2A003EB1C2 /* FujiNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FujiNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAA28512609ED2A003EB1C2 /* FujiNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FujiNetUITests.swift; sourceTree = "<group>"; };
+		DCAA28532609ED2B003EB1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAA28292609ED24003EB1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAA283F2609ED2A003EB1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAA284A2609ED2A003EB1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAA28232609ED23003EB1C2 = {
+			isa = PBXGroup;
+			children = (
+				DCAA282E2609ED24003EB1C2 /* FujiNet */,
+				DCAA28452609ED2A003EB1C2 /* FujiNetTests */,
+				DCAA28502609ED2A003EB1C2 /* FujiNetUITests */,
+				DCAA282D2609ED24003EB1C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAA282D2609ED24003EB1C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA282C2609ED24003EB1C2 /* FujiNet.app */,
+				DCAA28422609ED2A003EB1C2 /* FujiNetTests.xctest */,
+				DCAA284D2609ED2A003EB1C2 /* FujiNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAA282E2609ED24003EB1C2 /* FujiNet */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA282F2609ED24003EB1C2 /* AppDelegate.swift */,
+				DCAA28312609ED24003EB1C2 /* SceneDelegate.swift */,
+				DCAA28332609ED24003EB1C2 /* ViewController.swift */,
+				DC309F77260B5C9700A39B7C /* SafariViewController.swift */,
+				DCAA28352609ED24003EB1C2 /* Main.storyboard */,
+				DCAA28382609ED29003EB1C2 /* Assets.xcassets */,
+				DCAA283A2609ED29003EB1C2 /* LaunchScreen.storyboard */,
+				DCAA283D2609ED2A003EB1C2 /* Info.plist */,
+			);
+			path = FujiNet;
+			sourceTree = "<group>";
+		};
+		DCAA28452609ED2A003EB1C2 /* FujiNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA28462609ED2A003EB1C2 /* FujiNetTests.swift */,
+				DCAA28482609ED2A003EB1C2 /* Info.plist */,
+			);
+			path = FujiNetTests;
+			sourceTree = "<group>";
+		};
+		DCAA28502609ED2A003EB1C2 /* FujiNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA28512609ED2A003EB1C2 /* FujiNetUITests.swift */,
+				DCAA28532609ED2B003EB1C2 /* Info.plist */,
+			);
+			path = FujiNetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAA282B2609ED24003EB1C2 /* FujiNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAA28562609ED2B003EB1C2 /* Build configuration list for PBXNativeTarget "FujiNet" */;
+			buildPhases = (
+				DCAA28282609ED24003EB1C2 /* Sources */,
+				DCAA28292609ED24003EB1C2 /* Frameworks */,
+				DCAA282A2609ED24003EB1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FujiNet;
+			productName = FujiNet;
+			productReference = DCAA282C2609ED24003EB1C2 /* FujiNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCAA28412609ED2A003EB1C2 /* FujiNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAA28592609ED2B003EB1C2 /* Build configuration list for PBXNativeTarget "FujiNetTests" */;
+			buildPhases = (
+				DCAA283E2609ED2A003EB1C2 /* Sources */,
+				DCAA283F2609ED2A003EB1C2 /* Frameworks */,
+				DCAA28402609ED2A003EB1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAA28442609ED2A003EB1C2 /* PBXTargetDependency */,
+			);
+			name = FujiNetTests;
+			productName = FujiNetTests;
+			productReference = DCAA28422609ED2A003EB1C2 /* FujiNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCAA284C2609ED2A003EB1C2 /* FujiNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAA285C2609ED2B003EB1C2 /* Build configuration list for PBXNativeTarget "FujiNetUITests" */;
+			buildPhases = (
+				DCAA28492609ED2A003EB1C2 /* Sources */,
+				DCAA284A2609ED2A003EB1C2 /* Frameworks */,
+				DCAA284B2609ED2A003EB1C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAA284F2609ED2A003EB1C2 /* PBXTargetDependency */,
+			);
+			name = FujiNetUITests;
+			productName = FujiNetUITests;
+			productReference = DCAA284D2609ED2A003EB1C2 /* FujiNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAA28242609ED24003EB1C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DCAA282B2609ED24003EB1C2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DCAA28412609ED2A003EB1C2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DCAA282B2609ED24003EB1C2;
+					};
+					DCAA284C2609ED2A003EB1C2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DCAA282B2609ED24003EB1C2;
+					};
+				};
+			};
+			buildConfigurationList = DCAA28272609ED24003EB1C2 /* Build configuration list for PBXProject "FujiNet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAA28232609ED23003EB1C2;
+			productRefGroup = DCAA282D2609ED24003EB1C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAA282B2609ED24003EB1C2 /* FujiNet */,
+				DCAA28412609ED2A003EB1C2 /* FujiNetTests */,
+				DCAA284C2609ED2A003EB1C2 /* FujiNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAA282A2609ED24003EB1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAA283C2609ED29003EB1C2 /* LaunchScreen.storyboard in Resources */,
+				DCAA28392609ED29003EB1C2 /* Assets.xcassets in Resources */,
+				DCAA28372609ED24003EB1C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAA28402609ED2A003EB1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAA284B2609ED2A003EB1C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAA28282609ED24003EB1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAA28342609ED24003EB1C2 /* ViewController.swift in Sources */,
+				DCAA28302609ED24003EB1C2 /* AppDelegate.swift in Sources */,
+				DC309F78260B5C9700A39B7C /* SafariViewController.swift in Sources */,
+				DCAA28322609ED24003EB1C2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAA283E2609ED2A003EB1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAA28472609ED2A003EB1C2 /* FujiNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAA28492609ED2A003EB1C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAA28522609ED2A003EB1C2 /* FujiNetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCAA28442609ED2A003EB1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAA282B2609ED24003EB1C2 /* FujiNet */;
+			targetProxy = DCAA28432609ED2A003EB1C2 /* PBXContainerItemProxy */;
+		};
+		DCAA284F2609ED2A003EB1C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAA282B2609ED24003EB1C2 /* FujiNet */;
+			targetProxy = DCAA284E2609ED2A003EB1C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCAA28352609ED24003EB1C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAA28362609ED24003EB1C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCAA283A2609ED29003EB1C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAA283B2609ED29003EB1C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAA28542609ED2B003EB1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCAA28552609ED2B003EB1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAA28572609ED2B003EB1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5R22R46Q2;
+				INFOPLIST_FILE = FujiNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pj.ca.jisa-sarawijuf.FujiNet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCAA28582609ED2B003EB1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5R22R46Q2;
+				INFOPLIST_FILE = FujiNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pj.ca.jisa-sarawijuf.FujiNet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCAA285A2609ED2B003EB1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5R22R46Q2;
+				INFOPLIST_FILE = FujiNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pj.ca.jisa-sarawijuf.FujiNetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FujiNet.app/FujiNet";
+			};
+			name = Debug;
+		};
+		DCAA285B2609ED2B003EB1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5R22R46Q2;
+				INFOPLIST_FILE = FujiNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pj.ca.jisa-sarawijuf.FujiNetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FujiNet.app/FujiNet";
+			};
+			name = Release;
+		};
+		DCAA285D2609ED2B003EB1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5R22R46Q2;
+				INFOPLIST_FILE = FujiNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pj.ca.jisa-sarawijuf.FujiNetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FujiNet;
+			};
+			name = Debug;
+		};
+		DCAA285E2609ED2B003EB1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5R22R46Q2;
+				INFOPLIST_FILE = FujiNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pj.ca.jisa-sarawijuf.FujiNetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FujiNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAA28272609ED24003EB1C2 /* Build configuration list for PBXProject "FujiNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAA28542609ED2B003EB1C2 /* Debug */,
+				DCAA28552609ED2B003EB1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAA28562609ED2B003EB1C2 /* Build configuration list for PBXNativeTarget "FujiNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAA28572609ED2B003EB1C2 /* Debug */,
+				DCAA28582609ED2B003EB1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAA28592609ED2B003EB1C2 /* Build configuration list for PBXNativeTarget "FujiNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAA285A2609ED2B003EB1C2 /* Debug */,
+				DCAA285B2609ED2B003EB1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAA285C2609ED2B003EB1C2 /* Build configuration list for PBXNativeTarget "FujiNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAA285D2609ED2B003EB1C2 /* Debug */,
+				DCAA285E2609ED2B003EB1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCAA28242609ED24003EB1C2 /* Project object */;
+}
